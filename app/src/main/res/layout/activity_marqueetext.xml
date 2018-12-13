@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wjn.myview.view.MarqueeText
+        android:id="@+id/activity_motionevent_marqueetext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:gravity="center|left"/>
+
+</LinearLayout>

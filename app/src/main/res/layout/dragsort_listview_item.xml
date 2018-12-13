@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC">
+
+        <TextView
+            android:id="@+id/dragsort_listview_item_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/dragsort_listview_item_layout"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:lineSpacingExtra="5dp"
+            android:padding="15dp"
+            android:text="显示选择的标签"
+            android:textColor="#696969"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/dragsort_listview_item_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/planandform_hui"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

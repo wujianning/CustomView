@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.wjn.myview.view.DragSortListView
+        android:id="@+id/activity_dragsortlistview_listview"
+        dslv:click_remove_id="@id/dragsort_listview_item_layout"
+        dslv:collapsed_height="1px"
+        dslv:drag_enabled="true"
+        dslv:drag_handle_id="@id/dragsort_listview_item_textview"
+        dslv:drag_scroll_start="0.33"
+        dslv:drag_start_mode="onDown"
+        dslv:float_alpha="0.6"
+        dslv:remove_enabled="true"
+        dslv:remove_mode="clickRemove"
+        dslv:slide_shuffle_speed="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:divider="#FFFFFF"
+        android:dividerHeight="10dp"
+        android:scrollbars="none">
+
+    </com.wjn.myview.view.DragSortListView>
+
+</LinearLayout>
